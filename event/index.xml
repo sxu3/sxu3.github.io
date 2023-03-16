@@ -32,5 +32,13 @@
 </description>
     </item>
     
+    <item>
+      <title>My Talk Name</title>
+      <link>https://sxu3.github.io/talk/my-talk-name/</link>
+      <pubDate>Mon, 27 Feb 2023 11:53:52 +0100</pubDate>
+      <guid>https://sxu3.github.io/talk/my-talk-name/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
