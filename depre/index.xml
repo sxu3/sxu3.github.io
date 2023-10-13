@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Depres | Shanshan XU</title>
+    <link>https://sxu3.github.io/depre/</link>
+      <atom:link href="https://sxu3.github.io/depre/index.xml" rel="self" type="application/rss+xml" />
+    <description>Depres</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 05 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://sxu3.github.io/media/icon_huc82a9262b90b28dbcdb0f1652012e76e_45056_512x512_fill_lanczos_center_3.png</url>
+      <title>Depres</title>
+      <link>https://sxu3.github.io/depre/</link>
+    </image>
+    
+    <item>
+      <title>Attack on Unfair ToS Clauses Detection: A Case Study using Universal Adversarial Triggers</title>
+      <link>https://sxu3.github.io/depre/nllp2022/</link>
+      <pubDate>Wed, 05 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://sxu3.github.io/depre/nllp2022/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
