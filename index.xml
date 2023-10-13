@@ -5,12 +5,50 @@
     <link>https://sxu3.github.io/</link>
       <atom:link href="https://sxu3.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Shanshan XU</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 06 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 07 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://sxu3.github.io/media/icon_huc82a9262b90b28dbcdb0f1652012e76e_45056_512x512_fill_lanczos_center_3.png</url>
       <title>Shanshan XU</title>
       <link>https://sxu3.github.io/</link>
     </image>
+    
+    <item>
+      <title>VECHR: A Dataset for Explainable and Robust Classification of Vulnerability Type in the European Court of Human Rights</title>
+      <link>https://sxu3.github.io/publication/emnlp2023_vechr/</link>
+      <pubDate>Sat, 07 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://sxu3.github.io/publication/emnlp2023_vechr/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>From Dissonance to Insights: Dissecting Disagreements in Rationale Dataset Construction for Case Outcome Classification</title>
+      <link>https://sxu3.github.io/publication/emnlp2023_rave/</link>
+      <pubDate>Fri, 06 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://sxu3.github.io/publication/emnlp2023_rave/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Deconfounding Legal Judgment Prediction towards Better Alignment with Experts for the European Court of Human Rights</title>
