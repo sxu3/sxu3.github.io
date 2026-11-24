@@ -27,7 +27,9 @@ The `.njk` content files use ordinary HTML. Edit text between tags and destinati
 
 ## Publish
 
-GitHub Actions builds `dist/` and deploys it after updates to `main`. Select **Settings → Pages → Source → GitHub Actions**, clear the old `sxu.notion.site` custom domain, and use https://sxu3.github.io/. Pull requests build and check without deploying. No custom domain is included in the generated site.
+First, an authenticated repository administrator must select **Settings → Pages → Build and deployment → Source → GitHub Actions** and clear the old `sxu.notion.site` custom domain if it is still present. This one-time configuration cannot be performed with the workflow token.
+
+GitHub Actions builds `dist/` and deploys it after updates to `main`. The public URL is https://sxu3.github.io/. Pull requests build and check without deploying. No custom domain is included in the generated site.
 
 The repository also contains the old generated site for reference. Only the new `src/` output, genuine legacy publication pages, and their assets are published. Theme example publications are excluded. Legacy publication URLs retain their original content and styling.
 
