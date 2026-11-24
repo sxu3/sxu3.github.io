@@ -1,0 +1,13 @@
+{
+  "name": "shanshan-xu-academic-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "eleventy",
+    "dev": "eleventy --serve",
+    "check": "node scripts/check.mjs"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "3.1.8"
+  }
+}

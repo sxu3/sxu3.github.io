@@ -1,0 +1,8 @@
+---
+permalink: /sitemap.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{% for path in ['/', '/teaching/', '/news/', '/publication/', '/publication/emnlp2023_vechr/', '/publication/emnlp2023_rave/', '/publication/emnlp2022_echr/', '/publication/emnlp2022_summarization/', '/publication/nllp2022/', '/publication/lrec2022/'] %}<url><loc>{{ site.url }}{{ path }}</loc></url>
+{% endfor %}</urlset>

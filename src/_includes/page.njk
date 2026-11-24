@@ -1,0 +1,6 @@
+---
+layout: base.njk
+---
+<nav class="page-nav" aria-label="Main navigation"><a href="/">Hi, I’m Shanshan</a><a href="/teaching/"{% if page.url == '/teaching/' %} aria-current="page"{% endif %}>Teaching</a><a href="/news/"{% if page.url == '/news/' %} aria-current="page"{% endif %}>News</a></nav>
+<h1>{{ title }}</h1>
+<div class="page-content">{{ content | safe }}</div>

@@ -1,0 +1,27 @@
+
+#sx-notion{--sx-accent:#244f97;background:#fff;color:#303030;font:15px/1.75 Arial,Helvetica,sans-serif;padding:34px 7% 50px;max-width:1100px;margin:auto;color-scheme:light;container-type:inline-size}#sx-notion *{box-sizing:border-box}#sx-notion a{color:var(--sx-accent);text-decoration:none}#sx-notion a:hover{text-decoration:underline}#sx-notion a:focus-visible,#sx-notion summary:focus-visible{outline:2px solid var(--sx-accent);outline-offset:4px}#sx-notion h1{font:700 34px/1.2 Arial,sans-serif;letter-spacing:-.8px;margin:0 0 22px}#sx-notion .top{display:flex;align-items:center;justify-content:space-between;gap:24px;border-bottom:1px solid #dedede;padding-bottom:21px}#sx-notion nav{display:flex;gap:24px;flex-wrap:wrap;font-size:14px}#sx-notion .small-link{font-size:13px;color:#777}#sx-notion .intro{display:grid;grid-template-columns:160px minmax(0,1fr);gap:35px;padding:30px 0 28px}#sx-notion .portrait{width:130px;height:150px;object-fit:cover;border-radius:3px;margin-bottom:18px}#sx-notion .contacts{font-size:13px;line-height:1.6}#sx-notion .contacts p{margin:11px 0}#sx-notion details{margin:0 0 12px}#sx-notion summary{cursor:pointer;color:var(--sx-accent)}#sx-notion details p{overflow-wrap:anywhere;color:#666;font-size:12px}#sx-notion .bio h2{font:400 16px/1.8 Arial,sans-serif;margin:0 0 22px}#sx-notion .bio h3{font:400 15px/1.8 Arial,sans-serif;margin:0;color:#4d4d4d}#sx-notion .section{border-top:2px solid var(--sx-accent);padding-top:16px;margin-top:13px}#sx-notion .section h2{font:600 22px/1.4 Arial,sans-serif;margin:0 0 18px;letter-spacing:-.3px}#sx-notion .section-head{display:flex;justify-content:space-between;align-items:baseline;gap:15px}#sx-notion ul{padding-left:19px;margin:0}#sx-notion li{padding-left:3px;margin-bottom:13px}#sx-notion .news li{font-size:14px;line-height:1.45;margin-bottom:7px}#sx-notion .more{font-size:13px;margin:10px 0 30px 22px}#sx-notion .publications li{font-size:14px;line-height:1.8;padding-bottom:17px;margin-bottom:17px;border-bottom:1px solid #ececec}#sx-notion .publications li:last-child{border-bottom:0;margin-bottom:0;padding-bottom:0}#sx-notion .paper-title{font-size:15px;font-weight:600}#sx-notion .publications h2 a{color:#303030}#sx-notion .authors{color:#555}#sx-notion .mobile{max-width:390px}@container(max-width:570px){#sx-notion .intro{grid-template-columns:1fr;gap:22px}#sx-notion .profile{display:grid;grid-template-columns:100px 1fr;gap:22px}#sx-notion .portrait{width:100px;height:118px}#sx-notion h1{font-size:29px}#sx-notion .contacts p{margin:7px 0}#sx-notion nav{gap:18px}}
+
+
+#sx-notion{font-family:Georgia,'Times New Roman',serif;color:#222}
+#sx-notion h1{font:normal 36px/1.2 Georgia,'Times New Roman',serif;letter-spacing:0;margin-bottom:23px}
+#sx-notion .top{border-bottom:1px solid #bdbdbd}
+#sx-notion nav{font:15px/1.5 Georgia,serif}
+#sx-notion .small-link{font:13px/1.5 Georgia,serif;color:#666}
+#sx-notion .intro{grid-template-columns:155px minmax(0,1fr);gap:32px;padding:30px 0 22px}
+#sx-notion .portrait{width:130px;height:140px;border-radius:0}
+#sx-notion .contacts{font:14px/1.55 Georgia,serif}
+#sx-notion details p{font:13px/1.6 Georgia,serif}
+#sx-notion .bio h2{font:normal 16px/1.65 Georgia,'Times New Roman',serif;margin-bottom:18px}
+#sx-notion .bio h3{font:normal 15px/1.65 Georgia,'Times New Roman',serif;color:#333}
+#sx-notion .section{border-top:0;padding-top:0;margin-top:17px}
+#sx-notion .section-head{border-bottom:1px solid #ccc;margin-bottom:15px}
+#sx-notion .section h2{font:normal 25px/1.3 Georgia,'Times New Roman',serif;letter-spacing:0;margin:0 0 10px}
+#sx-notion .news li{font:14px/1.45 Georgia,'Times New Roman',serif;margin-bottom:7px}
+#sx-notion .more{font:14px/1.5 Georgia,serif;margin:11px 0 28px 22px}
+#sx-notion .publications h2{border-bottom:1px solid #ccc;padding-bottom:9px;margin-bottom:15px}
+#sx-notion .publications li{font:14px/1.6 Georgia,'Times New Roman',serif;border-bottom:0;padding-bottom:0;margin-bottom:17px}
+#sx-notion .paper-title{font:bold 15px/1.5 Georgia,'Times New Roman',serif}
+#sx-notion .authors{color:#333}
+@container(max-width:570px){#sx-notion .intro{grid-template-columns:1fr;gap:20px}#sx-notion h1{font-size:30px}#sx-notion .portrait{width:100px;height:118px}}
+
+html{scroll-behavior:smooth}body{margin:0;background:#fff}.skip-link{position:absolute;left:12px;top:-70px;padding:8px;background:white;color:#244f97}.skip-link:focus{top:12px}#sx-notion .page-nav{display:flex;gap:24px;border-bottom:1px solid #ccc;padding-bottom:18px;margin-bottom:26px}#sx-notion .archive li{margin-bottom:12px;font-size:15px}#sx-notion .page-content{min-height:320px} @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
