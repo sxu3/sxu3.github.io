@@ -13,10 +13,18 @@ for (const page of pages) {
   }
 }
 const home = readFileSync('dist/index.html', 'utf8');
-assert(home.indexOf('section news') < home.indexOf('section publications'));
-assert.equal((home.match(/<li>/g) || []).length, 13, 'Seven news entries and six publications');
-assert.match(home, /Findinds ACL 2026/); // Preserve source text, including its spelling.
-assert.match(home, /firstname.lastname/);
+const sections = ['about', 'news', 'pubs', 'teach'];
+let previous = -1;
+for (const id of sections) {
+  const position = home.indexOf(`<section id="${id}">`);
+  assert(position > previous, `Missing or misplaced homepage section: ${id}`);
+  assert(home.includes(`href="#${id}"`), `Missing navigation for ${id}`);
+  previous = position;
+}
+assert.equal((home.match(/class="paper"/g) || []).length, 3);
+assert.equal((home.match(/class="update"/g) || []).length, 2);
+assert.match(home, /Findings of ACL 2026/);
+assert(!home.includes('Bad News') && !home.includes('firstname.lastname'));
 assert.match(readFileSync('dist/teaching/index.html', 'utf8'), /Coming soon\./);
 assert(!existsSync('dist/CNAME'));
 assert(!existsSync('dist/publication/conference-paper'));

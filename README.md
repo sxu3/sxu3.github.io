@@ -1,6 +1,6 @@
 # Shanshan Xu — academic website
 
-Classic scholar design, preserving the public Notion homepage's wording and section order. News uses compact line spacing. No visitor JavaScript or external fonts are needed.
+Classic scholar design using the structure and wording of the selected template: About me, News, Selected publications, and Teaching. News uses compact line spacing. No visitor JavaScript or external fonts are needed.
 
 ## Run locally
 
@@ -15,15 +15,17 @@ The preview normally runs at http://localhost:8080. Build with `pnpm build`, the
 
 ## Edit content
 
-- `src/content/profile.njk`: homepage title, navigation, contact details, biography.
-- `src/content/news.njk`: latest News entries, in Notion order.
-- `src/content/publications.njk`: selected publications, authors, venues and links.
-- `src/news.md`: complete Notion news archive.
+- `src/content/profile.njk`: name, affiliation, portrait, navigation and contact links.
+- `src/content/about.njk`: About me biography.
+- `src/content/news.njk`: two compact News updates from the selected template.
+- `src/content/publications.njk`: three selected publications from the template.
+- `src/content/teaching.njk`: homepage Teaching section.
+- `src/news.md`: standalone News route, using the same template entries.
 - `src/teaching.md`: Teaching page.
 - `src/assets/site.css`: typography, colors, spacing and mobile layout.
 - `src/_data/site.json`: site URL and metadata.
 
-The `.njk` content files use ordinary HTML. Edit text between tags and destinations in `href` attributes. Existing Notion spelling, duplicate archive entries, emojis and the “400”/“Bad News” links are intentionally retained. Notion is not synchronized automatically. The separate Notion publications database was unavailable; the homepage's six entries are preserved without guessing additional content.
+The `.njk` content files use ordinary HTML. Edit text between tags and destinations in `href` attributes. The homepage follows the Classic scholar preview rather than mirroring the Notion page. Notion is linked from Profile but is not synchronized automatically.
 
 ## Publish
 
